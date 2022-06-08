@@ -1,0 +1,867 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Jura", sans-serif;
+}
+
+.home-page {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.home-page header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-page header nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+
+.home-page header nav ul a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  color: #006AA7;
+}
+
+.home-page header nav ul a:hover {
+  text-decoration: underline;
+}
+
+.home-page .introduction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home-page .introduction .introduction-content h1 {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.home-page .introduction .introduction-content h2 {
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.home-page .introduction .introduction-content p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 35px;
+}
+
+.home-page .introduction .introduction-content .last {
+  margin-top: -33px;
+  line-height: 22px;
+}
+
+.home-page .introduction .introduction-content a {
+  display: block;
+  width: 230px;
+  height: 50px;
+  color: white;
+  font-size: 16px;
+  background-color: #006AA7;
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home-page .introduction .introduction-content a:hover {
+  background-color: #024D79;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.home-page .introduction img {
+  position: relative;
+  top: -100px;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 45%;
+}
+
+.home-page .past {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f3f2f2), to(white));
+  background-image: linear-gradient(#f3f2f2, white);
+  padding: 50px 0;
+}
+
+.home-page .past .titles {
+  text-align: center;
+}
+
+.home-page .past .titles a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+.home-page .past .blow-by-blow {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (260px)[4];
+      grid-template-columns: repeat(4, 260px);
+  -ms-grid-rows: 250px;
+      grid-template-rows: 250px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  padding-top: 20px;
+}
+
+.home-page .past .blow-by-blow .step {
+  width: 260px;
+  height: 250px;
+  padding: 20px 15px;
+  background-color: white;
+}
+
+.home-page .past .blow-by-blow .step h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.home-page .past .blow-by-blow .step p {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px 0;
+}
+
+.home-page .past .blow-by-blow .step .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.home-page .past .blow-by-blow .step .link p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.home-page .past .blow-by-blow .step:hover {
+  background-color: #006AA7;
+  -webkit-transition: 3s;
+  transition: 3s;
+  color: white;
+}
+
+.home-page .past .cossacks {
+  margin-top: 50px;
+  padding: 50px 0;
+  background-color: white;
+}
+
+.home-page .past .cossacks h2 {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.home-page .past .cossacks .cossacks-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 530px 270px 270px;
+      grid-template-columns: 530px 270px 270px;
+  -ms-grid-rows: 180px;
+      grid-template-rows: 180px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 30px;
+}
+
+.home-page .past .cossacks .cossacks-content .item {
+  border: 0.5px solid grey;
+  border-radius: 5px;
+  padding: 8px 15px;
+  background-color: #F5F5F5;
+}
+
+.home-page .past .cossacks .cossacks-content .item h3 {
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 9px;
+}
+
+.home-page .past .cossacks .cossacks-content .item p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.home-page .past .cossacks .cossacks-content .one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #006AA7;
+  color: white;
+  padding: 20px;
+}
+
+.home-page .past .cossacks .cossacks-content .one .one-content h3 {
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.home-page .past .cossacks .cossacks-content .one .one-content p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.home-page .past .cossacks .link {
+  padding: 20px;
+}
+
+.home-page .past .cossacks .link a {
+  display: block;
+  width: 200px;
+  height: 45px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 7px;
+  text-align: center;
+  padding-top: 10px;
+  color: black;
+  background-color: #ffcf2f;
+}
+
+.home-page .past .cossacks .link > a:hover {
+  background-color: #BD930A;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.home-page .past .plane-dream {
+  background-color: #F9C00D;
+  padding: 30px 20px;
+}
+
+.home-page .past .plane-dream h2 {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.home-page .past .plane-dream .dream-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 30px 0 10px 0;
+}
+
+.home-page .past .plane-dream .dream-content .content-text {
+  width: 700px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.home-page .past .plane-dream .dream-content .content-text p {
+  padding-bottom: 30px;
+}
+
+.home-page .past .plane-dream .dream-content .content-text .link {
+  display: block;
+  width: 200px;
+  height: 45px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 7px;
+  text-align: center;
+  padding-top: 10px;
+  color: black;
+}
+
+.home-page .past .plane-dream .dream-content .content-text .link:hover {
+  background-color: #BD930A;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.home-page .present {
+  padding: 50px 0;
+}
+
+.home-page .present .titles {
+  text-align: center;
+}
+
+.home-page .present .titles a {
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.home-page .present .who-we-are h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.home-page .present .who-we-are ul {
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (260px)[4];
+      grid-template-columns: repeat(4, 260px);
+  -ms-grid-rows: 160px;
+      grid-template-rows: 160px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  padding: 10px;
+}
+
+.home-page .present .who-we-are ul li {
+  border-radius: 7px;
+  border: 1px solid black;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px;
+}
+
+.home-page .present .galleries {
+  padding: 40px 50px;
+}
+
+.home-page .present .galleries p {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.home-page .present .galleries ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding-top: 10px;
+}
+
+.home-page .present .quote {
+  background-color: #006AA7;
+  display: -ms-grid;
+  display: grid;
+  width: 800px;
+  -ms-grid-columns: 1fr 200px;
+      grid-template-columns: 1fr 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px 45px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  margin: auto;
+}
+
+.home-page .present .quote p {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+.home-page .present .quote img {
+  border-radius: 100%;
+}
+
+.home-page .present .digitalization {
+  padding: 40px 0;
+}
+
+.home-page .present .digitalization .titles {
+  text-align: center;
+}
+
+.home-page .present .digitalization .titles h2 {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.home-page .present .digitalization .titles h3 {
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 7px;
+}
+
+.home-page .present .digitalization ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 15px;
+}
+
+.home-page .present .digitalization ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 350px;
+  height: 120px;
+  background-color: #F9C00D;
+  padding: 0 8px;
+  gap: 10px;
+}
+
+.home-page .present .digitalization ul li p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.home-page .future {
+  background-color: #f3f2f2;
+  margin-top: -30px;
+  padding: 50px;
+}
+
+.home-page .future .titles {
+  text-align: center;
+}
+
+.home-page .future .titles a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.home-page .future .prediction {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (340px)[3];
+      grid-template-columns: repeat(3, 340px);
+  -ms-grid-rows: 230px 200px;
+      grid-template-rows: 230px 200px;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+}
+
+.home-page .future .prediction .footstep {
+  background-color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px 15px;
+}
+
+.home-page .future .prediction .footstep p {
+  padding-top: 15px;
+  line-height: 20px;
+}
+
+.home-page .future .prediction .footstep:hover {
+  background-color: #006AA7;
+  color: white;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.home-page .future .prediction .four, .home-page .future .prediction .five {
+  width: 520px;
+}
+
+.home-page .future .prediction .five {
+  margin-left: 180px;
+}
+
+.home-page .future .galleries2 {
+  padding: 50px 25px;
+}
+
+.home-page .future .galleries2 p {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.home-page .future .galleries2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding-top: 20px;
+}
+
+.home-page .future .ukrainians p {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.home-page .future .ukrainians ul {
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (515px)[2];
+      grid-template-columns: repeat(2, 515px);
+  -ms-grid-rows: (150px)[3];
+      grid-template-rows: repeat(3, 150px);
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0 40px 0;
+}
+
+.home-page .future .ukrainians ul li {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 15px;
+  gap: 15px;
+}
+
+.home-page .future .ukrainians ul li p {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: start;
+  line-height: 20px;
+}
+
+.home-page .future .ukrainians ul li p span {
+  color: #a8a7a7;
+}
+
+.home-page .future .ukrainians ul li img {
+  border-radius: 100%;
+}
+
+.home-page footer {
+  background-color: #006AA7;
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.home-page footer p {
+  font-size: 19px;
+  font-weight: 700;
+  color: white;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .home-page {
+    min-width: 900px;
+  }
+  .home-page header {
+    width: 40%;
+    padding-left: 130px;
+  }
+  .home-page .introduction {
+    width: 950px;
+    margin: auto;
+  }
+  .home-page .past {
+    width: 100%;
+  }
+  .home-page .past .blow-by-blow {
+    -ms-grid-columns: (260px)[2];
+        grid-template-columns: repeat(2, 260px);
+    -ms-grid-rows: (250px)[2];
+        grid-template-rows: repeat(2, 250px);
+    gap: 30px;
+  }
+  .home-page .past .cossacks .cossacks-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .home-page .past .cossacks .cossacks-content .one {
+    width: 70%;
+    height: 180px;
+  }
+  .home-page .past .cossacks .cossacks-content .two, .home-page .past .cossacks .cossacks-content .three {
+    width: 34%;
+    height: 150px;
+  }
+  .home-page .past .cossacks .link {
+    padding-left: 180px;
+  }
+  .home-page .past .plane-dream .dream-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+    gap: 20px;
+  }
+  .home-page .past .plane-dream .dream-content img {
+    width: 680px;
+    padding-right: 15px;
+  }
+  .home-page .present .who-we-are ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (300px)[2];
+        grid-template-columns: repeat(2, 300px);
+    -ms-grid-rows: (160px)[2];
+        grid-template-rows: repeat(2, 160px);
+    row-gap: 20px;
+  }
+  .home-page .present .galleries p {
+    text-align: center;
+  }
+  .home-page .present .galleries ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (200px)[2];
+        grid-template-columns: repeat(2, 200px);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 15px;
+    padding-top: 20px;
+    gap: 20px;
+  }
+  .home-page .present .galleries ul .last img {
+    width: 420px;
+    height: 330px;
+  }
+  .home-page .present .digitalization ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (350px)[2];
+        grid-template-columns: repeat(2, 350px);
+    -ms-grid-rows: (120px)[2];
+        grid-template-rows: repeat(2, 120px);
+  }
+  .home-page .future .prediction {
+    -ms-grid-columns: (340px)[2];
+        grid-template-columns: repeat(2, 340px);
+    -ms-grid-rows: (260px)[2];
+        grid-template-rows: repeat(2, 260px);
+  }
+  .home-page .future .prediction .four {
+    width: 100%;
+  }
+  .home-page .future .prediction .five {
+    width: 700px;
+    margin-left: 0px;
+  }
+  .home-page .future .galleries2 ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (250px)[2];
+        grid-template-columns: repeat(2, 250px);
+    -ms-grid-rows: (160px)[2];
+        grid-template-rows: repeat(2, 160px);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px;
+  }
+  .home-page .future .ukrainians ul {
+    -ms-grid-columns: (400px)[2];
+        grid-template-columns: repeat(2, 400px);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .home-page {
+    width: 900px;
+    margin: 0 auto;
+  }
+  .home-page header {
+    padding-left: 180px;
+  }
+  .home-page .introduction {
+    width: 520px;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  .home-page .introduction img {
+    display: none;
+  }
+  .home-page .past .blow-by-blow {
+    -ms-grid-columns: (260px)[2];
+        grid-template-columns: repeat(2, 260px);
+    -ms-grid-rows: (250px)[2];
+        grid-template-rows: repeat(2, 250px);
+    gap: 30px;
+  }
+  .home-page .past .cossacks .cossacks-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .home-page .past .cossacks .cossacks-content .one {
+    width: 66%;
+    height: 180px;
+  }
+  .home-page .past .cossacks .cossacks-content .two, .home-page .past .cossacks .cossacks-content .three {
+    width: 287px;
+    height: 190px;
+  }
+  .home-page .past .cossacks .link {
+    padding-left: 155px;
+  }
+  .home-page .past .plane-dream .dream-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+    gap: 20px;
+  }
+  .home-page .past .plane-dream .dream-content img {
+    width: 680px;
+    padding-right: 15px;
+  }
+  .home-page .present .who-we-are ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (300px)[2];
+        grid-template-columns: repeat(2, 300px);
+    -ms-grid-rows: (160px)[2];
+        grid-template-rows: repeat(2, 160px);
+    row-gap: 20px;
+  }
+  .home-page .present .galleries p {
+    text-align: center;
+  }
+  .home-page .present .galleries ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (200px)[2];
+        grid-template-columns: repeat(2, 200px);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 15px;
+    padding-top: 20px;
+    gap: 20px;
+  }
+  .home-page .present .galleries ul .last img {
+    width: 420px;
+    height: 330px;
+  }
+  .home-page .present .digitalization ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (350px)[2];
+        grid-template-columns: repeat(2, 350px);
+    -ms-grid-rows: (120px)[2];
+        grid-template-rows: repeat(2, 120px);
+  }
+  .home-page .future .prediction {
+    -ms-grid-columns: (340px)[2];
+        grid-template-columns: repeat(2, 340px);
+    -ms-grid-rows: (260px)[2];
+        grid-template-rows: repeat(2, 260px);
+  }
+  .home-page .future .prediction .four {
+    width: 100%;
+  }
+  .home-page .future .prediction .five {
+    width: 700px;
+    margin-left: 0px;
+  }
+  .home-page .future .galleries2 ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (250px)[2];
+        grid-template-columns: repeat(2, 250px);
+    -ms-grid-rows: (160px)[2];
+        grid-template-rows: repeat(2, 160px);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px;
+  }
+  .home-page .future .ukrainians ul {
+    -ms-grid-columns: (400px)[2];
+        grid-template-columns: repeat(2, 400px);
+  }
+}
+/*# sourceMappingURL=style.css.map */
